@@ -1,0 +1,102 @@
+/* GENERAL */
+html {
+    font-family: "Jost", sans-serif;
+    font-size: 100%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Jost", sans-serif;
+    font-size: 100%;
+    background-color: #1DA1F2;
+  }
+
+/* CONTENT */
+
+.main-container-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.twt-search-div {
+    text-align: center;
+    max-width: 600px;
+}
+
+.twt-search-div *{
+    margin: 5px 0 0 0 ;
+}
+
+.twt-search-div span {
+    margin: 0;
+    text-align: center;
+    font-size: 5rem;
+}
+
+
+.twt-search-div input {
+    width: 100%;
+    border: 0px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin: 0 0 5px 0;
+    background-color: #cbcbcbd8;
+}
+
+.twt-search-div input:hover {
+    background-color: #cbcbcb;
+}
+
+
+.predict-btn {
+    width: 50%;
+    height: 40px;
+    color: #cbcbcb;
+    font-weight: 600;
+    border: 1px solid #cbcbcb;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.predict-btn:hover{
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    border: 0px;
+    color: black;
+    border-radius: 20px;
+    background-color: #cbcbcb;
+}
+
+.animation-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.output span {
+    color: black;
+    background-color: #9dc7e0;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.vbo-resmi {
+    margin-top: 30px;
+}

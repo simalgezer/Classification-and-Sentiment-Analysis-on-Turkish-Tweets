@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TWEETLE</title>
+    <link rel="stylesheet" href="static/css/general.css" />
+    <link rel="stylesheet" href="static/css/anim.css">
+    <link rel="stylesheet" href="static/css/queries.css">
+<!--FOR LOTTIE-->
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<!--FOR LOTTIE-->
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div>
+                <span>I LOVE VBO - I LOVE VBO -- I LOVE VBO - I LOVE VBO</span>
+                <span>I LOVE VBO - I LOVE VBO -- I LOVE VBO - I LOVE VBO</span>
+          </div>
+        </div>
+    </header>
+
+    <section class="main-section">
+        <div class="main-container-div">
+            <div class="twt-search-div">
+                <div class="animation-div">
+                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_me2jebk7.json"  background="transparent"  speed="1"  style="width: 150x; height: 150px;"  loop autoplay></lottie-player>
+                </div>
+                <span>TWEETLE</span>
+                <form action="/" method="POST" style="display: inline;">
+               <input type="text" name = 'tweet' class= 'tweet' autocomplete="off" placeholder="Tweet Giriniz...">
+               <button class="predict-btn" type="submit">TAHMİN ET</button>
+            </form>
+            </div>
+        </div>
+        <div class="output">
+            <span>Kategori: {{result}}</span>
+        </div>
+        <div class = "resim" style="text-align: center; margin-top: 10px;"><img class = "vbo-resmi" src="static/vbo-resmi-transparan2.png"></div>
+    </section>
+
+</body>
+</html>

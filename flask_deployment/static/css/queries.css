@@ -1,0 +1,44 @@
+@media (max-width: 74em) {
+    .vbo-resmi {
+        width: 250px;
+    }
+  }
+
+  @media (max-width: 62em) {
+
+  }
+
+  @media (max-width: 56em) {
+
+  }
+
+  @media (max-width: 47em) {
+
+  }
+
+  @media (max-width: 38em) {
+
+    .main-container-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .twt-search-div span {
+        margin: 0;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .vbo-resmi {
+        width: 200px;
+    }
+
+    .output{
+    font-size: 1.5rem;
+    text-align: center;
+    }
+
+  }
